@@ -14,6 +14,7 @@
 		048A2B3B274ACB8800909629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048A2B3A274ACB8800909629 /* Assets.xcassets */; };
 		048A2B3E274ACB8800909629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A2B3C274ACB8800909629 /* LaunchScreen.storyboard */; };
 		04FEFF4E27809B80008626EB /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFF4D27809B80008626EB /* HomeTableViewCell.swift */; };
+		04FEFF502780E683008626EB /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFF4F2780E683008626EB /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		048A2B3D274ACB8800909629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048A2B3F274ACB8800909629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FEFF4D27809B80008626EB /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		04FEFF4F2780E683008626EB /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				048A2B3C274ACB8800909629 /* LaunchScreen.storyboard */,
 				048A2B3F274ACB8800909629 /* Info.plist */,
 				04FEFF4D27809B80008626EB /* HomeTableViewCell.swift */,
+				04FEFF4F2780E683008626EB /* AddViewController.swift */,
 			);
 			path = ReminderApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FEFF502780E683008626EB /* AddViewController.swift in Sources */,
 				048A2B36274ACB8300909629 /* HomeViewController.swift in Sources */,
 				048A2B32274ACB8300909629 /* AppDelegate.swift in Sources */,
 				04FEFF4E27809B80008626EB /* HomeTableViewCell.swift in Sources */,

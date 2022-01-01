@@ -37,7 +37,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Reminder"
-        navigationController?.navigationBar.tintColor = .blue
+        navigationController?.navigationBar.tintColor = .black
         navigationController?.navigationBar.prefersLargeTitles = true
         tableView.delegate = self
         tableView.dataSource = self
@@ -54,7 +54,7 @@ class HomeViewController: UIViewController {
         print("pressed")
     }
     @objc func didTapPlus(){
-        print("plus")
+        navigationController?.pushViewController(AddViewController(), animated: true)
     }
 
 }
