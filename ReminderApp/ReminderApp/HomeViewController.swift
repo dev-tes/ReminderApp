@@ -43,8 +43,9 @@ class HomeViewController: UIViewController {
         tableView.dataSource = self
         view.addSubview(tableView)
         tableView.frame = view.bounds
-        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: leftButton)
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightButton)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Test", style: .done , target: self, action: #selector(didTapTest))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTapPlus))
 
         constraintViews()
     }
