@@ -47,7 +47,6 @@ class HomeViewController: UIViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Test", style: .done , target: self, action: #selector(didTapTest))
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTapPlus))
 
-        constraintViews()
     }
 
     @objc func didTapTest(){
@@ -60,24 +59,6 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
-    
-    func constraintViews(){
-
-//        view.addSubview(leftButton)
-//        view.addSubview(rightButton)
-//        self.navigationItem.titleView?.addSubview(leftButton)
-//        self.navigationItem.titleView?.addSubview(rightButton)
-
-        
-        NSLayoutConstraint.activate([
-
-//            leftButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
-//            leftButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-
-//            rightButton.topAnchor.constraint(equalTo: view.topAnchor),
-//            rightButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-        ])
-    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 7
